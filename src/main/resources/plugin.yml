@@ -1,0 +1,10 @@
+name: MovecraftPlundering
+version: '${project.version}'
+main: me.goodroach.movecraftplundering.MovecraftPlundering
+api-version: 1.16
+depend: [Movecraft-Combat]
+loadbefore: [Movecraft-Combat]
+commands:
+  capture:
+    description: Will suspend an airship midair when sunk for a brief moment.
+    usage: /<command>
